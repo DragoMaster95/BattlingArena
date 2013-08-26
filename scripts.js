@@ -5772,7 +5772,7 @@ beforeChatMessage: function(src, message, chan) {
         sys.stopEvent();
         return;
     }
-	if (m.indexOf("taon") != -1) {
+	if (m.indexOf("taon") != -1 || m.indexOf("bk") != -1 || m.indexOf("b-k") != -1 || m.indexOf("b k") != -1 || m.indexOf("b.k") != -1 || m.indexOf("bcappa") != -1 || m.indexOf("bkappa") != -1 || m.indexOf("bikappa") != -1 || m.indexOf("bicappa") != -1) {
 		sys.stopEvent();
         return;
 	}
